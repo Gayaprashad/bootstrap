@@ -36,8 +36,19 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+#myCarousel .item{
+    height:400px;
+}
 
-
+#slide1{
+    background:url('../../images/carousel_medium_01.jpg')  no-repeat;
+}
+#slide2{
+    background:url('../../images/carousel_medium_02.jpg')  no-repeat;
+}
+#slide3{
+    background:url('../../images/carousel_medium_03.jpg')  no-repeat;
+}
 
 /* --------------------------------------
    Global Styles

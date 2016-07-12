@@ -87,6 +87,40 @@
 
         	<div class="carousel slide" id="myCarousel">
 
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#myCarousel"></li><!-- data-slide-to is lets us to slide to the first slide when one clicks on the first circle -->
+                    <li data-slide-to="1" data-target="#myCarousel"></li>
+                    <li data-slide-to="2" data-taret="#myCarousel"></li>
+                </ol>
+
+                <!-- Wrapper for slides-->
+                <div class="carousel-inner">
+
+                    <div class="item active" id="slide1">
+                        <div class="carousel-caption">
+                            <h3>Bootstrap</h3>
+                            <p>Learn how to build your website using bootstrap 3!!</p>
+                        </div><!-- end carousel-caption . It is used to add headings to the carousel backgound -->
+                    </div><!--end item -->
+
+                    <div class="item" id="slide2">
+                        <div class="carousel-caption">
+                            <h3>HTML 5</h3>
+                            <p>Learn how code a website using HTML5!!</p>
+                        </div><!-- end carousel-caption . It is used to add headings to the carousel backgound -->
+                    </div><!--end item -->
+
+                    <div class="item" id="slide3">
+                        <div class="carousel-caption">
+                            <h3>Web Hosting 101</h3>
+                            <p>Learn how to buy a perfect domain name and hosting package to get your website up and running!!</p>
+                        </div><!-- end carousel-caption . It is used to add headings to the carousel backgound -->
+                    </div><!--end item -->
+                </div><!--end carousel-inner-->
+                <!---Controls-->
+                <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+                <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
         	</div><!-- end myCarousel -->
 
 
